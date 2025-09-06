@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🚀 JavaScript Fundamentals Assignment</h1>
+
+    <!-- ================== Part 1: Basics ================== -->
+    <section>
+        <h2>Part 1: Basics (Variables + Conditionals)</h2>
+        <p id="output1">Click the button to enter your age:</p>
+        <!-- Button calls checkAge() function in script.js -->
+        <button onclick="checkAge()">Check Age</button>
+    </section>
+
+    <!-- ================== Part 2: Functions ================== -->
+    <section>
+        <h2>Part 2: Functions</h2>
+        <!-- Button calls calculateTotal() function -->
+        <button onclick="calculateTotal(3, 150)">Calculate Total (Example: 3 × 150)</button>
+        <p id="output2"></p>
+    </section>
+
+    <!-- ================== Part 3: Loops ================== -->
+    <section>
+        <h2>Part 3: Loops</h2>
+        <!-- Button calls showCountdown() function -->
+        <button onclick="showCountdown()">Start Countdown (5 → 1)</button>
+        <p id="output3"></p>
+    </section>
+
+    <!-- ================== Part 4: DOM Manipulation ================== -->
+    <section>
+        <h2>Part 4: DOM Manipulation</h2>
+        <!-- Button to toggle highlight class -->
+        <button id="toggleBtn">Toggle Highlight</button>
+        <p id="domText">This text will be updated using JavaScript.</p>
+
+        <!-- Button calls addNewItem() function -->
+        <button onclick="addNewItem()">Add New Item</button>
+        <ul id="itemList"></ul>
+    </section>
+
+    <!-- Link external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
